@@ -9,5 +9,10 @@ session = DBSession()
 myFirstRestaurant = Restaurant(name = "Honey's Coffee")
 session.add(myFirstRestaurant)
 session.commit()
+cheesepizza = MenuItem(name = "Cheese Pizza")
+session.add(cheesepizza)
+mysterysoup = MenuItem(name = "Mystery Soup")
+session.add(mysterysoup)
+session.commit()
 
 "C:\Users\mateo\Documents\programming\udacity\fullstack_intro"
